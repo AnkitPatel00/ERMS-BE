@@ -14,6 +14,28 @@
  - create projects
  - Team overview
  - create assignments
+
 ## Api routes
 
-- 
+ ### user
+ - POST /api/auth/login
+ - POST /api/auth/register
+ - GET /api/auth/profile
+ - POST /api/auth/profile/:userId
+
+ ### project
+ - POST /api/projects
+ - GET /api/projects
+ - GET /api/projects/:id
+
+ ### engineer
+  - GET /api/engineers
+  - GET /api/engineers/:id/capacity
+
+ ### assignments
+  - POST /api/assignments
+  - GET /api/assignments
+  - GET /api/assignments
+  - GET /api/assignments/:id
+  - POST /api/assignments/:id
+  - DELETE /api/assignments/:id
